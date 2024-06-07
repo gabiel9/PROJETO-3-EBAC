@@ -1,14 +1,17 @@
 body {
     font-family: Roboto, sans-serif;
+    color: #fff;
+    background-color: #132d46;
 }
 
-.navbar {
-    background-color: #e15f41;
+.navbar,
+.titulos {
+    background-color: #1a1e29;
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color: #fff;
-    color: #e15f41;
+    background-color: #01c38e;
+    color: #fff;
 }
 
 #cabecalho .nav .nav-link,
@@ -23,30 +26,34 @@ body {
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: Audiowide, sans-serif;
+}
+
+.section-title2{
+    font-family: "Press Start 2P", system-ui;
 }
 
 .section-title span {
-    color: #e15f41;
+    color: #01c38e;
 }
 
 #sobre-o-restaurante,
 #cardapio {
-    background-color: #f3d4cd;
+    background-color: #132d46;
 }
 
 .text-colored {
-    color: #e15f41;
+    color: #01c38e;
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f41;
+    background-color: #01c38e;
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color: #95f2d9;
 }
 
 .social-links li {
@@ -56,6 +63,20 @@ body {
 
 .social-links a {
     text-decoration: none;
+}
+
+.coloracao {
+    background-color: #1a1e29;
+    color: #fff;
+}
+
+.coloracao-fundo {
+    background-color: #132d46;
+    color: #fff;
+}
+
+.texto {
+    color: #fff;
 }
 
 @media (max-width: 767px) {
